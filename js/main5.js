@@ -98,7 +98,7 @@
 				camera.position.y = - camera.target.y;
 				camera.position.z = - camera.target.z;
 				*/
-		//controls.update();
+		controls.update();
 		//renderer.render(scene, camera);
 		effect.render(scene, camera);
 	}
